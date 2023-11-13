@@ -21,8 +21,8 @@
   
 
   // Ruta de template
-  app.get('/first_template', function(req, res){
-    res.render('first_view');
+  app.get('/', function(req, res){
+    res.send('Hola, como estamos?');
   });
 
   // Habilito recepción de JSON en servidor.
