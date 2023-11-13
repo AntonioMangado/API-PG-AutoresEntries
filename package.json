@@ -1,0 +1,26 @@
+{
+  "name": "demo-express",
+  "version": "1.0.0",
+  "description": "Mi primer servidor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Antonio Mangado",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^4.8.1",
+    "mongoose": "^8.0.0",
+    "pg": "^8.11.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
