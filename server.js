@@ -20,7 +20,7 @@
   const authorsApiRoutes = require("./routes/authorsApi.routes.js")
   
 
-  // Ruta de template
+  // Ruta de home
   app.get('/', function(req, res){
     res.send('Hola, como estamos?');
   });
