@@ -21,7 +21,7 @@
   
 
   // Ruta de home
-  app.get('/', function(req, res){
+  app.get('https://api-pg-autores-entries.vercel.app/', function(req, res){
     res.send('Hola, como estamos?');
   });
 
@@ -31,8 +31,8 @@
   // Rutas
   // API
   // app.use(checkApiKey)
-  app.use("/api/entries", entriesApiRoutes)
-  app.use("/api/authors", authorsApiRoutes)
+  app.use("https://api-pg-autores-entries.vercel.app/api/entries", entriesApiRoutes)
+  app.use("https://api-pg-autores-entries.vercel.app/api/authors", authorsApiRoutes)
 
   // Última ruta por defecto. En caso de no encotrarse ninguna anterior, devolvemos un 404
   app.get("*", (req,res) => { 
